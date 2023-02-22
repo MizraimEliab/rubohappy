@@ -1,0 +1,12 @@
+# .rubocop.yml
+
+# AllCops configuration
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+
+# Rails configuration
+Rails:
+  Enabled: true
