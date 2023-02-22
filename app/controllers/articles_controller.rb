@@ -7,5 +7,6 @@ class ArticlesController < ApplicationController
     a = "hello"
     b = "wolrd"
     c = a +b 
+    message = "this is an message"
   end
 end
