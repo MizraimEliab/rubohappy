@@ -6,7 +6,3 @@ AllCops:
     - 'vendor/**/*'
     - 'db/schema.rb'
     - 'db/migrate/*'
-
-# Rails configuration
-Rails:
-  Enabled: true
