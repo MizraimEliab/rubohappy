@@ -2,6 +2,7 @@
 
 # AllCops configuration
 AllCops:
+  NewCops: enable
   Exclude:
     - 'vendor/**/*'
     - 'db/schema.rb'
