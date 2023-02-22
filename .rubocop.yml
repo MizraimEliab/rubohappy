@@ -7,8 +7,4 @@ AllCops:
     - 'db/schema.rb'
     - 'db/migrate/*'
 
-# Rails configuration
-Rails:
-  Enabled: true
-
 NewCops: pending
