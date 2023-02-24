@@ -1,9 +1,5 @@
 # .rubocop.yml
 
 # AllCops configuration
-AllCops:
-  NewCops: enable
-  Exclude:
-  <% `git status --ignored --porcelain`.lines.grep(/^!! /).each do |path| %>
-    - <%= path.sub(/^!! /, '').sub(/\/$/, '/**/*') %>
-  <% end %>
+#AllCops:
+  #NewCops: enable

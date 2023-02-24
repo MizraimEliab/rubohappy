@@ -14,5 +14,6 @@ class ArticlesController < ApplicationController
     str = "STRING MALLLLL"
     money = "DINERO CON STRING MALLLLL"
     mney = "String mal"
+    mal = "String malo malo malo"
   end
 end
