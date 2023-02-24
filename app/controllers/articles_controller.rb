@@ -11,5 +11,6 @@ class ArticlesController < ApplicationController
     otro = "mensaje malo"
     otro_test = "string malo"
     only = "SOlo estoy modificando un archivo"
+    str = "STRING MALLLLL"
   end
 end

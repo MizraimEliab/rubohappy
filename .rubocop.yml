@@ -2,16 +2,4 @@
 
 # AllCops configuration
 AllCops:
-  NewCops: enable
-  Exclude:
-    - 'vendor/**/*'
-    - 'db/schema.rb'
-    - 'db/migrate/*'
-    - 'Gemfile'
-    - 'Gemfile.lock'
-    - 'config.ru'
-    - 'Rakefile'
-    - 'test/**/*'
-    - 'bin/**/*'
-    - 'config/**/*'
-    - 'db/seeds.rb'
+  DisabledByDefault: true
