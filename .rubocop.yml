@@ -7,3 +7,8 @@ AllCops:
     - 'vendor/**/*'
     - 'db/schema.rb'
     - 'db/migrate/*'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'config.ru'
+    - 'Rakefile'
+
