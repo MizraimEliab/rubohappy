@@ -27,4 +27,4 @@ jobs:
       - run: gem install rubocop
       - name: Run RuboCop
         #run: rubocop
-        run: git diff-tree -r --no-commit-id --name-only HEAD origin--main | xargs rubocop
+        run: git diff-tree -r --no-commit-id --name-only HEAD --origin/main | xargs rubocop
