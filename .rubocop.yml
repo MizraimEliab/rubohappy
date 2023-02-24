@@ -2,4 +2,4 @@
 
 # AllCops configuration
 AllCops:
-  DisabledByDefault: true
+  NewCops: enable
