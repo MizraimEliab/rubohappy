@@ -25,8 +25,6 @@ jobs:
         with:
           ruby-version: 3.0.0
       - run: gem install rubocop
-      - name: Git
-      - run: apt install git
       - name: Run RuboCop
         #run: rubocop
         run: git diff-tree -r --no-commit-id --name-only HEAD | xargs rubocop
