@@ -13,5 +13,6 @@ class ArticlesController < ApplicationController
     only = "SOlo estoy modificando un archivo"
     str = "STRING MALLLLL"
     money = "DINERO CON STRING MALLLLL"
+    mney = "String mal"
   end
 end
