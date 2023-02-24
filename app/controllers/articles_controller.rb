@@ -9,5 +9,6 @@ class ArticlesController < ApplicationController
     c = a +b 
     mes = "This is an string"
     otro = "mensaje malo"
+    otro_test = "string malo"
   end
 end
