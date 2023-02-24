@@ -11,4 +11,5 @@ AllCops:
     - 'Gemfile.lock'
     - 'config.ru'
     - 'Rakefile'
+    - 'test/*'
 
