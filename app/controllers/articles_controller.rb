@@ -8,5 +8,6 @@ class ArticlesController < ApplicationController
     b = "wolrd"
     c = a +b 
     mes = "This is an string"
+    otro = "mensaje malo"
   end
 end
