@@ -16,5 +16,7 @@ class ArticlesController < ApplicationController
     mney = "String mal"
     mal = "String malo malo malo"
     despertar = "mal"
+
+    jokeis = "otro string malo"
   end
 end
