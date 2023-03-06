@@ -3,6 +3,10 @@ on: [pull_request]
 
 jobs:
   pronto:
+    permissions:
+    contents: 'read'
+    id-token: 'write'
+    issues: 'write'
 
     runs-on: ubuntu-latest
 
@@ -18,7 +22,7 @@ jobs:
       - name: Setup faraday
         run: gem install faraday-retry
       - name: Run Pronto
-        run: pronto run -f github_status github_pr -c origin/main
+        run: pronto run -f github_status github_pr -c origin/${{ github.base_ref }}
         env:
           PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
           PRONTO_GITHUB_ACCESS_TOKEN: "${{ github.token }}"
