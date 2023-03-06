@@ -12,5 +12,6 @@ class ArticlesController < ApplicationController
     this = "other string fail"
     fire = "other string"
     bad = "bad string again"
+    mal = "string malo"
   end
 end
