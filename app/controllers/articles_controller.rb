@@ -6,6 +6,13 @@ class ArticlesController < ApplicationController
     puts "hello world"
     a = "hello"
     b = "wolrd"
-    c = a +b 
+    c = a +b
+    
+    str = "bad string"
+    this = "other string fail"
+    fire = "other string"
+    bad = "bad string again"
+    mal = "string malo"
+    mas_malo = "tomorrow"
   end
 end

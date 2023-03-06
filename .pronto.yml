@@ -1,3 +1,9 @@
+formatters:
+  rubocop_link_formatter:
+    require: rubocop/formatter/link_formatter
+    path_prefix: "https://github.com/rubocop/ruby-style-guide"
+    url_template: "%{path_prefix}%{cop_name}.md"
+
 rubocop:
   # Map of RuboCop severity level to Pronto severity level
   severities:
@@ -6,3 +12,7 @@ rubocop:
 
   # Enable suggestions
   suggestions: true
+
+  enabled: true
+  command: ["rubocop", "-f", "json"]
+  formatter: rubocop_link_formatter
