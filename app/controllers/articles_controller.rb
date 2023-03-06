@@ -7,5 +7,7 @@ class ArticlesController < ApplicationController
     a = "hello"
     b = "wolrd"
     c = a +b 
+
+    qq = "THis is an wrong string"
   end
 end
