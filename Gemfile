@@ -32,7 +32,7 @@ gem 'rugged'
 gem 'faraday-retry'
 gem 'pronto'
 gem 'pronto-rubocop', require: false
-#gem 'rubocop'
+gem 'rubocop'
 gem 'pronto-flay', require: false
 
 group :development, :test do

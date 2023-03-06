@@ -13,5 +13,6 @@ class ArticlesController < ApplicationController
     fire = "other string"
     bad = "bad string again"
     mal = "string malo"
+    mas_malo = "tomorrow"
   end
 end
