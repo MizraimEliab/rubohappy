@@ -4,9 +4,9 @@ on: [pull_request]
 jobs:
   pronto:
     permissions:
-    contents: 'read'
-    id-token: 'write'
-    issues: 'write'
+    contents: read
+    id-token: write
+    issues: write
 
     runs-on: ubuntu-latest
 
