@@ -11,5 +11,6 @@ class ArticlesController < ApplicationController
     str = "bad string"
     this = "other string fail"
     fire = "other string"
+    bad = "bad string again"
   end
 end

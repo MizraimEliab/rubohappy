@@ -291,6 +291,7 @@ DEPENDENCIES
   pronto-rubocop
   puma (~> 4.1)
   rails (~> 6.0.4, >= 6.0.4.1)
+  rubocop
   rugged
   sass-rails (>= 6)
   selenium-webdriver
