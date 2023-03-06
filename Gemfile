@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'rugged'
+gem 'faraday-retry'
 gem 'pronto'
 gem 'pronto-rubocop', require: false
 gem 'pronto-flay', require: false
