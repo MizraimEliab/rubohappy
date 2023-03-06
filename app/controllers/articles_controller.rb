@@ -9,5 +9,6 @@ class ArticlesController < ApplicationController
     c = a +b
     
     str = "bad string"
+    this = "other string fail"
   end
 end

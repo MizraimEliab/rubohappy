@@ -8,8 +8,8 @@ rubocop:
   # Enable suggestions
   suggestions: true
 
-  formatters:
-  rubocop_link_formatter:
-    require: rubocop/formatter/link_formatter
-    path_prefix: "https://github.com/rubocop/ruby-style-guide"
-    url_template: "%{path_prefix}%{cop_name}.md"
+formatters:
+rubocop_link_formatter:
+  require: rubocop/formatter/link_formatter
+  path_prefix: "https://github.com/rubocop/ruby-style-guide"
+  url_template: "%{path_prefix}%{cop_name}.md"
